@@ -50,12 +50,12 @@ async def init():
         pass
     await Audify.decorators()
     LOGGER("AudifyMusic").info(
-        "Audify Music Bot Started Successfully.\n\nDon't forget to visit @GrayBots"
+        "Hakla Music Bot Started Successfully.\n\nDon't forget to visit @Fine_N_ok"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AudifyMusic").info("Stopping Audify Music Bot...")
+    LOGGER("AudifyMusic").info("Stopping Hakla Music Bot...")
 
 
 if __name__ == "__main__":
