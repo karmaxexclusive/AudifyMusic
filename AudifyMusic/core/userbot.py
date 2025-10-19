@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("GrayBotSupport")
-                await self.one.join_chat("GrayBots")
+                await self.one.join_chat("deathmatch_13")
+                await self.one.join_chat("fine_n_ok")
             except:
                 pass
             assistants.append(1)
