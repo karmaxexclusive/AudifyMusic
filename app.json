@@ -1,12 +1,12 @@
 {
-    "name": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
+    "name": "ᴀʙᴇʏ ᴏʏᴇ ʜᴀᴋʟᴀ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg",
+    "logo": "https://files.catbox.moe/1uib6n.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Audify",
+    "Hakla",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
