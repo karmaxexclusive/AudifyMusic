@@ -1,5 +1,5 @@
 <h2 align="center"> 
-Audify Music 🎧
+Hakla Music 🎧
 </h2>
 
 ---
