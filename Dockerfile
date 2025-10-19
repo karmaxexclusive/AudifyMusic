@@ -1,4 +1,5 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
+# Use the Bullseye variant to fix broken Debian Buster repos
+FROM nikolaik/python-nodejs:python3.10-nodejs19-bullseye
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg \
@@ -7,6 +8,7 @@ RUN apt-get update \
 
 COPY . /app/
 WORKDIR /app/
+
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
-CMD bash start
+CMD ["bash", "start"]
